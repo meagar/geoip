@@ -1,6 +1,6 @@
 # geoip
 
-A dead-simple CLI for geo-locating up IP addresses using MaxMindb's GeoLite2-City.
+A dead-simple CLI for geo-locating an IP address using MaxMindb's GeoLite2-City.
 
 ## Install
 
@@ -20,5 +20,5 @@ United States
 
 $ geoip 194.60.38.225
 Kensington, England, Royal Kensington and Chelsea, United Kingdom
-...
+```
 
