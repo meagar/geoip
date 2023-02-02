@@ -1,0 +1,21 @@
+goos: windows
+goarch: amd64
+pkg: github.com/meagar/geoip
+cpu: 12th Gen Intel(R) Core(TM) i7-1260P
+BenchmarkLoadingDatabase-16                	       3	 457460733 ns/op
+BenchmarkLoadingDatabase-16                	       3	 451574500 ns/op
+BenchmarkLoadingDatabase-16                	       3	 463785033 ns/op
+BenchmarkLoadingDatabase-16                	       3	 454920267 ns/op
+BenchmarkLoadingDatabase-16                	       3	 450045367 ns/op
+BenchmarkLoadingDatabaseUncompressed-16    	      27	  40930126 ns/op
+BenchmarkLoadingDatabaseUncompressed-16    	      27	  41920685 ns/op
+BenchmarkLoadingDatabaseUncompressed-16    	      30	  41473417 ns/op
+BenchmarkLoadingDatabaseUncompressed-16    	      32	  40171216 ns/op
+BenchmarkLoadingDatabaseUncompressed-16    	      31	  39794590 ns/op
+BenchmarkLoadingDatabaselz4-16             	      15	  75686533 ns/op
+BenchmarkLoadingDatabaselz4-16             	      16	  73980100 ns/op
+BenchmarkLoadingDatabaselz4-16             	      15	  77014320 ns/op
+BenchmarkLoadingDatabaselz4-16             	      15	  74525240 ns/op
+BenchmarkLoadingDatabaselz4-16             	      15	  75607167 ns/op
+PASS
+ok  	github.com/meagar/geoip	30.186s
